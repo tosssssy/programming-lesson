@@ -10,10 +10,10 @@
     "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
   },
-  "name": "programming-exercise",
+  "name": "programming-lesson",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "ssh://git@github.com/moood-inc/programming-exercise.git",
+  "repository": "ssh://git@github.com/moood-inc/programming-lesson.git",
   "author": "ito-p <not.1010.number@gmail.com>",
   "license": "MIT",
   "jest": {
