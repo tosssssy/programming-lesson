@@ -1,5 +1,7 @@
 # Lesson 1
 
+作業前に feature/lesson1 というブランチを main から作成しましょう。
+
 ## (1) 関数を実装してみよう
 
 ほとんどのプログラムは、データを入力し、それを整形して、出力するためにあります。まずは、二つの整数を渡して足し合わせる関数を作成してみましょう。
@@ -40,7 +42,6 @@
 
 作業が終わったら、GitHub 上に Pull Request を作成してレビューをしてもらいましょう。プログラムを作る仕事は、ほとんどの場合 git でソースコードを管理します。GitHub は git を WEB 上で管理できるように拡張した WEB サービスです。GitHub 上で Pull Request を作成し、メンターのレビューを受けてみましょう。
 
-1. CLI から `git checkout -b feature/lesson-1` と入力し、ブランチを作成する
 1. CLI から `git add .` と入力し、作業したファイルを commit する
 1. CLI から `git push origin feature/lesson-1` と入力し、push する
 1. GitHub から、Create Pull Request を選択
