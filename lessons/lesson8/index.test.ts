@@ -7,7 +7,7 @@ describe("Lesson 8", () => {
     ]);
   });
 
-  test("バブルソートによって数値がソートされること", () => {
+  test.skip("バブルソートによって数値がソートされること", () => {
     expect(bubbleSortWithHistories([3, 2, 4, 1])).toStrictEqual({
       result: [1, 2, 3, 4],
       histories: [
