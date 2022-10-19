@@ -4,23 +4,14 @@
 
 ## (1) クイックソートを実装してみましょう
 
-number 型の配列を引数にクイックソートを実装してみましょう。
+number 型の配列を引数にクイックソートを実装してみましょう。基準値は、配列の中央の値とします。配列の長さが偶数の場合は、右側を基準値とします。
 
 1. `lessons/lesson11/index.test.ts` を開いて、 skip されている 1 つ目のテストから `skip` を取る。
 1. `yarn test` を実行して、テストが失敗することを確認する。
 1. `lessons/lesson11/index.ts` の内容を編集して、string 型を返す `quickSort` 関数を完成させる。
 1. `yarn test` を実行して、テストが通過することを確認する。
 
-## (2) クイックソートの経過を履歴として保存し、結果と一緒に返すような実装にしてみましょう
-
-number 型の配列を引数にクイックソートを実装し、 Array<number> 型の result と Array<Node> 型の histories をプロパティに持つオブジェクトを返す関数を実装してみましょう。クイックソートの処理中に比較して入れ替えるような処理が発生する時、histories の配列に現在の配列の状態をコピーして末尾に追加してください。
-
-1. `lessons/lesson11/index.test.ts` を開いて、 skip されている 2 つ目のテストから `skip` を取る。
-1. `yarn test` を実行して、テストが失敗することを確認する。
-1. `lessons/lesson11/index.ts` の内容を編集して、string 型を返す `quickSortWithHistories` 関数を完成させる。
-1. `yarn test` を実行して、テストが通過することを確認する。
-
-## (3) (1)〜(2)の内容を git で commit し、 push して Pull Request を作成してみましょう。
+## (2) (1)の内容を git で commit し、 push して Pull Request を作成してみましょう。
 
 作業が終わったら、新しいブランチを作成して GitHub に push し、メンターにレビューを依頼してください。
 

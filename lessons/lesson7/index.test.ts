@@ -7,7 +7,7 @@ describe("Lesson 7", () => {
     ]);
   });
 
-  test("単純ソートによって数値がソートされること", () => {
+  test.skip("単純ソートによって数値がソートされること", () => {
     expect(simpleSort([3, 2, 4, 1])).toStrictEqual({
       result: [1, 2, 3, 4],
       histories: [
